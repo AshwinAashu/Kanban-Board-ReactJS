@@ -4,8 +4,8 @@ The objective of this project was to understand how drag and drop works in Rreac
 
 
 
-<img src="./screenshots/kanban-1.JPEG">
+<img src="./screenshots/kanban-1.JPG">
 
-<img src="./screenshots/kanban-2.JPEG">
+<img src="./screenshots/kanban-2.JPG">
 
-<img src="./screenshots/kanban-3.JPEG">
+<img src="./screenshots/kanban-3.JPG">
