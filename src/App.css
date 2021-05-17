@@ -1,0 +1,114 @@
+body{
+  
+  background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*Photo by <a href="https://unsplash.com/@samferrara?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Samuel Ferrara</a> on <a href="https://unsplash.com/s/photos/mountains?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+   */
+}
+.App {
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.drag-container {
+  text-align: center;
+}
+
+.head {
+  display: inline-block;
+  /* margin: 0; */
+  padding: 0;
+  text-align: center;
+  margin-top:5%;
+  margin-bottom:5%;
+  width:100%;
+  margin-left:-5%;
+  color: #ffff;
+  font-size: 45px;
+  font-family: Roboto;
+  
+}
+.droppable {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  /* right: 0; */
+  top: 10;
+  padding-top:20px;
+  background-color: rgb(230, 88, 0,0.6);
+  border-left: 2px ;
+  margin-left: 70%;
+  min-height:200px;
+}
+
+.draggable {
+  width: 150px;
+  height:50px;
+  padding-top:10%;
+  padding-bottom:10%;
+  background-color: rgb(255,255,255,0.9);
+  margin: 10px auto;
+}
+
+.inProgress {
+  position: absolute;
+  width: 200px;
+  min-height:200px;
+  /* left: 0; */
+  top: 10;
+  padding-top:20px;
+  background-color: rgb(230, 88, 0,0.6 );
+  border-right: 2px ;
+  margin-left:40%;
+}
+.Tasks{
+    margin-left: 10%;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    min-height: 200px;
+    /* left: 0; */
+    top: 10;
+    padding-top:20px;
+    background-color:rgb(230, 88, 0,0.6);
+    border-right: 2px ;
+
+}
+
+.group-header{
+  color:#ffff;
+}
+
+.fa-plus{
+  color:#ffffff;
+}
+.item-settings{
+  /* margin-top:-1%; */
+  padding-top:3%;
+  padding-left:55%;
+  display:inline-block;
+  position:relative;
+}
+.fa-ellipsis-h{
+  width: 10px;
+  padding-left:5px;
+}
+.fa-minus-circle{
+  color:red;
+}
+.priority-indicator{
+  display:inline-block;
+  position:relative;
+}
+
+.fa-fire{
+  position:absolute;
+  left:10px;
+}
+.priority-indicator{
+  margin-left:-20%;
+  
+}
